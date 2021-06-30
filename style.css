@@ -8,12 +8,13 @@ body {
     font-size: 14px;
     font-family: arial,sans-serif;
     color: #222;
+    height: 100vh;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    
 }
 
 .nav-container {
@@ -172,4 +173,65 @@ input:focus {
     text-align: center;
     font-family: arial,sans-serif;
     font-size: 14px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #f2f2f2;
+    padding: 6px;
+}
+
+.footer ul, p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+
+.footer ul li a, .footer p a{
+    text-decoration: none;
+    color:#222;
+    font-size: 13px;
+}
+
+.left-footer {
+    display: flex;
+    width: 100%;
+}
+
+.left-footer li {
+    padding-left: 20px;
+}
+
+.center-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#leaf {
+    width: 10px;
+    height: 10px;
+}
+
+.right-footer{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.right-footer li {
+    padding-right: 20px;
 }
