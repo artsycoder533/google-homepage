@@ -8,7 +8,14 @@ body {
     font-size: 14px;
     font-family: arial,sans-serif;
     color: #222;
-    height: calc(100vh - 60px);
+    height: 100vh;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
 }
 
 .container {
@@ -212,7 +219,7 @@ footer{
     align-items: center;
     width: 100%;
     background-color: #f2f2f2;
-    padding: 6px;
+    padding: 14px;
 }
 
 .footer ul, p{
