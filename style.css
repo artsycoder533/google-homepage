@@ -8,7 +8,7 @@ body {
     font-size: 14px;
     font-family: arial,sans-serif;
     color: #222;
-    height: 100vh;
+    height: calc(100vh - 60px);
 }
 
 .container {
@@ -71,9 +71,20 @@ body {
     font-size: 13px;
 }
 
-a:hover {
+.link-hover:hover {
     opacity: .85;
     text-decoration: underline;
+}
+
+#app-logo {
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    padding: 5px
+}
+
+#app-logo:hover {
+    background-color: rgba(95,99,104,0.24);
 }
 
 #login-button {
@@ -128,6 +139,12 @@ a:hover {
     border-bottom-right-radius: 24px;
 }
 
+.search-wrapper:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba (223,225,229,0)
+}
+
 .search-logo {
     display: flex;
     justify-content: center;
@@ -173,6 +190,13 @@ input:focus {
     text-align: center;
     font-family: arial,sans-serif;
     font-size: 14px;
+}
+
+.button-hover:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
 }
 
 footer{
